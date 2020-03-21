@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">just java</string>
+    <string name="nam" translatable="false">nombre</string>
+</resources>

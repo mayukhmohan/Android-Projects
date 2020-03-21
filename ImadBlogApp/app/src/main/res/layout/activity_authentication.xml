@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mohan.mayukh.imadblogapp.AuthenticationActivity">
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/brush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/passwd"
+        style="@style/brush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signin"
+        style="@style/brush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/reg"
+        style="@style/brush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg"
+        android:textSize="15sp" />
+</LinearLayout>

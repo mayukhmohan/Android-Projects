@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImadBlogApp</string>
+    <string name="username">Please enter your username here</string>
+    <string name="password">Please enter your password here</string>
+    <string name="sign">SIGN IN</string>
+    <string name="reg">REGISTER</string>
+</resources>

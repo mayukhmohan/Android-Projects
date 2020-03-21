@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImadApp</string>
+    <string name="text">Hi user I am your application</string>
+</resources>
